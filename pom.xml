@@ -6,7 +6,7 @@
 
   <groupId>com.courtapi.aws</groupId>
   <artifactId>aws-s3uri</artifactId>
-  <version>1.0</version>
+  <version>0.9.0</version>
 
   <name>aws-s3uri</name>
   <url>http://www.courtapi.com</url>
@@ -31,4 +31,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/CourtAPI/aws-s3uri-java</url>
+    </repository>
+  </distributionManagement>
 </project>

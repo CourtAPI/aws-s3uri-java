@@ -14,7 +14,7 @@ public class S3URI {
   private String bucket;
   private String key;
 
-  S3URI(final String location) {
+  public S3URI(final String location) {
     this.location = location;
 
     var schemeSplit = location.split("://", -1);

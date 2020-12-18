@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.courtapi.aws",
+    "module": "aws-s3uri",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "baqhj2jmvjfllcdrx7vxp7ic2i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 10,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "aws-s3uri-1.0.1.jar",
+          "url": "aws-s3uri-1.0.1.jar",
+          "size": 1961,
+          "sha512": "ff4e989b128f6b3e182f590ec4700c1837ff4233440c546227bbc6070eb6152e08ff6b72a60efcb0fac91612c995697624837ef7501f0c00c052aa4922433d4c",
+          "sha256": "3546df83f5109a516037dd96913c53fd5a5b8d34831bd9737e6804186792a6cd",
+          "sha1": "8c82e80eb67c7702855040969249374e88a0a677",
+          "md5": "c58f468ecc71940f8c268919aea3f6ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 10,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aws-s3uri-1.0.1.jar",
+          "url": "aws-s3uri-1.0.1.jar",
+          "size": 1961,
+          "sha512": "ff4e989b128f6b3e182f590ec4700c1837ff4233440c546227bbc6070eb6152e08ff6b72a60efcb0fac91612c995697624837ef7501f0c00c052aa4922433d4c",
+          "sha256": "3546df83f5109a516037dd96913c53fd5a5b8d34831bd9737e6804186792a6cd",
+          "sha1": "8c82e80eb67c7702855040969249374e88a0a677",
+          "md5": "c58f468ecc71940f8c268919aea3f6ce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aws-s3uri-1.0.1-sources.jar",
+          "url": "aws-s3uri-1.0.1-sources.jar",
+          "size": 1436,
+          "sha512": "9e57587dcd9b7e6401f7e5aaca0c0cd1bfe3609e138c7aa34db79b8b64592d3a5d80ad0eb68a09fe5055d70fcb1d00e00cb6fdaa1e4c488bf198d1785794f620",
+          "sha256": "31254db979dab36d6d6409cb93cad4693392a60198bc47389fb12d719abc59ad",
+          "sha1": "4399964f5ce063931879f5c3b264d07d671cd1ce",
+          "md5": "d9c777c717f9531f674ae42bc7b36a8a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aws-s3uri-1.0.1-javadoc.jar",
+          "url": "aws-s3uri-1.0.1-javadoc.jar",
+          "size": 390621,
+          "sha512": "57823e557636582ea84f56b0617e11ab5ead4f58026e0063ee51f8be5db6672b4a1d29d6f4d2169c1152effe32ac5b373904d9e0d87aaa348cbbb1768905efb8",
+          "sha256": "8bda6f80464a0aeba52c5d08bb7e873ed115df732a341891dbdde23382858501",
+          "sha1": "a20a3d4cdc4ab673ec5d9589c9a300a9eb8688c6",
+          "md5": "48d424e2a3e2e981a979aec879a47db7"
+        }
+      ]
+    }
+  ]
+}

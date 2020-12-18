@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#!/bin/sh
+
+set -e
+
+# NOTE, requires courtio main repo aws credentials setup
+export CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token \
+    --profile courtio-main \
+    --domain courtio \
+    --query authorizationToken --output text`
+
+if test -z "$CODEARTIFACT_AUTH_TOKEN"; then
+    echo "Failed to obtain an AWS CodeArtifact Token"
+    exit 1
+fi
+
+gradle publish
